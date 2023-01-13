@@ -1,0 +1,51 @@
+main {
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading-img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+section {
+  padding: 1rem;
+  border: 2px dashed #73a9ad;
+  background-color: #f5f0bb;
+}
+
+section:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+section .headline {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #73a9ad;
+  transform: skew(-25deg);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+section .headline .word {
+  display: block;
+  transform: skew(25deg);
+}
+
+section .img {
+  width: 100px;
+}
+
+section .text.first {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #c4dfaa;
+}
+
+section .text.second {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #90c8ac;
+}

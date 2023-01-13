@@ -1,0 +1,41 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  text-align: center;
+  color: #06113C;
+}
+
+.flex,
+.grid {
+  background-color: #EEEEEE;
+  padding: 2rem;
+  border: 2px solid #06113C;
+}
+.flex .first {
+  background-color: #73A9AD;
+}
+.flex .second {
+  background-color: #90C8AC;
+}
+.flex .third {
+  background-color: #C4DFAA;
+}
+.flex .fourth {
+  background-color: #F5F0BB;
+}
+
+.grid .first {
+  background-color: #82954B;
+}
+.grid .second {
+  background-color: #BABD42;
+}
+.grid .third {
+  background-color: #EFD345;
+}
+.grid .fourth {
+  background-color: #FFEF82;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Todo</h2>
+    <ul class="todo">
+      <li>
+        <input type="checkbox" id="1" name="1" checked />
+        <label for="1">Input types</label>
+      </li>
+      <li>
+        <input type="checkbox" id="2" name="2" checked />
+        <label for="2">Labels & Placeholders</label>
+      </li>
+      <li>
+        <input type="checkbox" id="3" name="3" checked />
+        <label for="3">Required</label>
+      </li>
+      <li>
+        <input type="checkbox" id="4" name="4" checked />
+        <label for="4">Validations</label>
+      </li>
+      <li>
+        <input type="checkbox" id="5" name="5" checked />
+        <label for="5">Email, password & password validation</label>
+      </li>
+      <li>
+        <input type="checkbox" id="6" name="6" checked />
+        <label for="6">Checkbox & Radio btns</label>
+      </li>
+      <li>
+        <input type="checkbox" id="7" name="7" checked />
+        <label for="7">Submit btn vs input</label>
+      </li>
+      <li>
+        <input type="checkbox" id="8" name="8" checked />
+        <label for="8">Form Method & Action</label>
+      </li>
+      <li>
+        <input type="checkbox" id="9" name="9" checked />
+        <label for="9">Form Data - How it looks inside the server</label>
+      </li>
+      <li>
+        <input type="checkbox" id="10" name="10" />
+        <label for="9">Where should we validate data?</label>
+      </li>
+    </ul>
+
+    <form action="http://localhost:3001/" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          placeholder="John Doe"
+          id="name"
+          name="name"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          placeholder="john.doe@gmail.com"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <!-- Minimum eight characters, at least one letter and one number: -->
+      <!-- "^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" -->
+      <div>
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          placeholder=""
+          id="pass"
+          name="pass"
+          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+        />
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>Please select your favorite Web language:</legend>
+
+          <input type="radio" id="html" name="technology" value="HTML" />
+          <label for="html">HTML</label><br />
+
+          <input type="radio" id="css" name="technology" value="CSS" />
+          <label for="css">CSS</label><br />
+
+          <input
+            type="radio"
+            id="javascript"
+            name="technology"
+            value="JavaScript"
+          />
+          <label for="javascript">JavaScript</label>
+        </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>Choose your monster's features:</legend>
+
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales">Scales</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">Horns</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div>
+        <label for="">Choose a car:</label>
+
+        <select name="" id="">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+
+      <input type="submit" value="Submit Input" />
+
+      <button type="submit">
+        Send
+
+        <img
+          width="100"
+          src="https://images.unsplash.com/photo-1536995769641-12e9f98fd223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt=""
+        />
+      </button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

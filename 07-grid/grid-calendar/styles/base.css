@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.calendar {
+  background-color: #e0deca;
+}
+
+.cell {
+  background-color: #c7d36f;
+  border: 1px solid #9eb23b;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.week,
+.weekend {
+  background-color: #fcf9c6;
+}
+.goals,
+.events {
+  background-color: #e0deca;
+}

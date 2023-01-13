@@ -1,0 +1,42 @@
+div.example-item:nth-child(1) {
+  background-color: red;
+  padding: 10px 20px 30px 40px;
+}
+div.example-item:nth-child(3) {
+  background-color: pink;
+  margin: 12px 30px;
+}
+div.example-item:nth-child(4) {
+  background-color: green;
+  border: 3px dashed orange;
+}
+
+div.example-item {
+  margin: 30px;
+}
+div.example-item:nth-child(3) {
+  margin-top: 50px;
+}
+
+div.divider {
+  height: 1px;
+  background-color: black;
+}
+
+.example div {
+  display: inline-block;
+  width: 15%;
+}
+
+/* Fix collapsible margins */
+/* .example * {
+  margin: 0px !important;
+}
+
+.example *:not(:last-child) {
+  margin-bottom: 12px !important;
+} */
+
+/* .example * + * {
+  margin-top: 12px !important;
+} */

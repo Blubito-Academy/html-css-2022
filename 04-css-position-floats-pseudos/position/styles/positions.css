@@ -1,0 +1,48 @@
+/* Static */
+.static .text.first {
+  color: red;
+  top: 20px;
+  bottom: 20px;
+  display: inline-block;
+}
+
+/* Relative */
+.relative .text.first {
+  position: relative;
+  color: red;
+  top: 40px;
+  left: 30px;
+}
+
+/* Absolute */
+.absolute {
+  position: relative;
+}
+.absolute .text.first {
+  position: absolute;
+  color: red;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* Fixed */
+.fixed .text.first {
+  position: fixed;
+  color: red;
+  right: 0px;
+  top: 0px;
+}
+
+/* Sticky */
+.sticky {
+  height: 350px;
+  overflow: auto;
+}
+
+.sticky .text.first {
+  position: sticky;
+  color: red;
+
+  left: 20px;
+  top: 100px;
+}

@@ -1,0 +1,7 @@
+div + p {
+  background-color: red;
+}
+
+.first-text ~ p {
+  background: pink;
+}

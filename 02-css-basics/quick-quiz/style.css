@@ -1,0 +1,67 @@
+/* 
+---------------------   QUESTION 1  ---------------------
+*/
+
+/* A */
+/* .topics-list .topics p {
+  color: red;
+} */
+/* B */
+/* .topics-list .topic-item p {
+  color: yellow;
+} */
+/* C */
+/* .topics-list .topic-item p {
+  color: green;
+} */
+
+/* 
+---------------------   QUESTION 2  ---------------------
+*/
+
+/* A */
+.topics .topic-item p {
+  color: red;
+}
+/* B */
+.topics-list .topic-item p {
+  color: yellow;
+}
+/* C */
+.topics-list .text p {
+  color: green;
+}
+
+/* 
+---------------------   QUESTION 3  ---------------------
+*/
+
+/* A */
+.topics li.topic-item p {
+  color: red;
+}
+/* B */
+.topics-list li p.text {
+  color: yellow;
+}
+/* C */
+.topics-list .topic-item p.vader {
+  color: green;
+}
+
+/* 
+---------------------   QUESTION 4  ---------------------
+*/
+
+/* A */
+.topics li.topic-item p.text.vader {
+  color: red;
+}
+/* B */
+.topics-list li.topic-item p.text.text {
+  color: yellow;
+}
+/* C */
+.topics-list .topic-item p.text.general {
+  color: green;
+}

@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+  background-color: #f1eee9;
+  padding: 1rem 0.5rem;
+  border: 2px solid #73777b;
+}
+.item {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+.item.first {
+  background-color: #df7861;
+}
+.item.second {
+  background-color: #ecb390;
+}
+.item.third {
+  background-color: #94b49f;
+}
+.item.fourth {
+  background-color: #fcf8e8;
+}

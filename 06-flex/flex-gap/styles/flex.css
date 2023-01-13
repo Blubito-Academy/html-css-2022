@@ -1,0 +1,15 @@
+.container {
+  /* height: 90vh; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 20px 5%; */
+}
+
+.container li {
+  width: 30%;
+}
+
+.container li:not(:nth-child(3n)) {
+  margin-right: 5%;
+}

@@ -1,0 +1,29 @@
+/* .lvl1 {
+  color: red;
+  font-size: 18px;
+}
+.lvl2 {
+  color: green;
+  font-size: 0.8em;
+}
+.lvl3 {
+  color: blue;
+  font-size: 1.2em;
+} */
+
+html {
+  font-size: 18px;
+}
+
+.lvl1 {
+  color: red;
+  font-size: 18px;
+}
+.lvl2 {
+  color: green;
+  font-size: 1.5rem;
+}
+.lvl3 {
+  color: blue;
+  font-size: 1.5rem;
+}

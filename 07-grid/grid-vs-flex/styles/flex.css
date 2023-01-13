@@ -1,0 +1,23 @@
+/* FLEX */
+.flex {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.flex .item {
+  width: calc((100% / 3) - 11px);
+  height: 200px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 16px;
+}
+
+.grid .first {
+  width: 150px;
+}

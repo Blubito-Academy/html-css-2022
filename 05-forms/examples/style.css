@@ -1,0 +1,47 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+form {
+  max-width: 450px;
+  margin: 3rem auto;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  color: #06113c;
+}
+
+form > * + * {
+  margin-top: 1.5rem;
+}
+
+input,
+textarea {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  border-color: #06113c;
+}
+
+form *:focus-visible {
+  outline-offset: 2px;
+  outline-color: #ff8c32;
+}
+
+form > div > label {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+form > div > label {
+  width: 20%;
+  display: inline-block;
+}
+
+#message {
+  resize: none;
+}
